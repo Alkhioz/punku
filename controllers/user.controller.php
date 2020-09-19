@@ -6,7 +6,7 @@ class userController{
     private $model;
 
     public function __CONSTRUCT(){
-        $this->model = new user();
+       // $this->model = new user();
     }
     
     public function Index(){
@@ -18,9 +18,12 @@ class userController{
     }
 
     public function Login(){
-        $this->model->setUsername("admin@email.com");
+       /* $this->model->setUsername("admin@email.com");
         $this->model->setPassword("000000");
-        echo $this->model->login();
+        echo $this->model->login();*/
+        require_once '../views/header.php';
+        echo "<br> USER PAGE";
+        require_once '../views/footer.php';
     }
     
 }

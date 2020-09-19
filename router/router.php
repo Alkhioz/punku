@@ -17,7 +17,7 @@ class router{
 
     public function checkRoute(){
         $uri = $this->getUri();
-        return !array_key_exists($uri, $this->routes) ? '/error' : $uri;
+        return !array_key_exists($uri, $this->routes) ? '/punku/error' : $uri;
     }
 
     public function start(){

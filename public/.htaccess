@@ -1,5 +1,5 @@
 #dont remove this line
-RewriteBase /chaska
+RewriteBase /punku
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-l

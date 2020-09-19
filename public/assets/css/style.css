@@ -1,0 +1,162 @@
+:root{
+    --primary: #0d51ac;
+    --white: #FFFFFF;
+    --black: #000000;
+    --error: rgb(161, 16, 16);
+    --success: rgb(16, 161, 88);
+}
+html {
+    height: 100%;
+    width: 100%;
+       }
+body { 
+  margin:0; 
+  font-family: Montserrat; 
+  }
+  *:focus {
+    outline: none;
+}
+.header-img {
+    background: url("../images/banner.svg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center center;
+    padding: 30vh 0;
+        margin: 0;
+}
+
+
+
+/*_____________________PROPERTIES_____________________*/
+  .maxw500{
+    max-width: 500px;
+  }
+  .undecorated{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    border: none;
+  }
+  .pad10{
+    padding: 10px;
+  }
+  .mar10{
+    margin: 10px;
+  }
+  .round10{
+    border-radius: 10px;
+  }
+  .block{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+  }
+  .inblock{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+  }
+  .w100{
+    width: 100%;
+  }
+  .h100{
+    height: 100%;
+  }
+  .border{
+    border: 1px solid black;
+  }
+  .nod{
+    display: none;
+  }
+  .flex{
+    display: flex;
+  }
+  
+/*_____________________COLOR_____________________*/
+.primary{
+    color: var(--primary);
+  }
+.white{
+    color: var(--white);
+  }
+.black{
+    color: var(--black);
+  }
+.error{
+    color: var(--error);
+  } 
+.success{
+    color: var(--success);
+  } 
+/*_____________________BACKGROUND_COLOR_____________________*/
+.bkprimary{
+    background-color: var(--primary);
+  }
+.bkwhite{
+    background-color: var(--white);
+  }
+.bkblack{
+    background-color: var(--black);
+  }
+.bkerror{
+    background-color: var(--error);
+  }
+.bksuccess{
+    color: var(--success);
+  }
+/*_____________________BORDER_COLOR_____________________*/
+.bdprimary{
+    border-color: var(--primary);
+  }
+.bdwhite{
+    border-color: var(--white);
+  }
+.bdblack{
+    border-color: var(--black);
+  }
+.bderror{
+    border-color: var(--error);
+  }
+.bdsuccess{
+    color: var(--success);
+}
+/*_____________________FONT_SIZES_____________________*/
+.big{
+    font-size: 36px;
+  }
+.medium{
+    font-size: 26px;
+  }
+.normal{
+    font-size: 16px;
+  }
+.small{
+    font-size: 13px;
+  }
+/*_____________________TEXT_ALIGN_____________________*/
+.txtcenter{
+    text-align: center;
+  }
+.txtjustify{
+    text-align: justify;
+  }
+/*_____________________POSITION_____________________*/
+.left{
+  float: left;
+}
+.center{
+  text-align: center;
+}
+.center > div, .center > table, .center > form{
+  margin-left: auto;
+  margin-right: auto;
+}
+.right{
+  margin-left: auto;
+}
+.mart0{
+  margin-top: 0;
+}

@@ -1,17 +1,17 @@
 {
-	"/chaska": {
+	"/punku": {
 		"controller": "default",
 		"action": "index",
 		"method": "GET"
-	},"/chaska/user/login": {
+	},"/punku/user/login": {
 		"controller": "user",
 		"action": "login",
 		"method": "POST"
-	},"/chaska/user": {
+	},"/punku/user": {
 		"controller": "user",
 		"action": "index",
 		"method": "POST"
-	},"/error": {
+	},"/punku/error": {
 		"controller": "error",
 		"action": "index",
 		"method": "GET"
