@@ -1,0 +1,19 @@
+{
+	"/chaska": {
+		"controller": "default",
+		"action": "index",
+		"method": "GET"
+	},"/chaska/user/login": {
+		"controller": "user",
+		"action": "login",
+		"method": "POST"
+	},"/chaska/user": {
+		"controller": "user",
+		"action": "index",
+		"method": "POST"
+	},"/error": {
+		"controller": "error",
+		"action": "index",
+		"method": "GET"
+	}
+}
