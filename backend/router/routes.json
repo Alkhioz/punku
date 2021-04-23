@@ -1,17 +1,17 @@
 {
-	"/punku": {
+	"/punkuapi": {
 		"controller": "default",
 		"action": "index",
 		"method": "GET"
-	},"/punku/user/login": {
+	},"/punkuapi/user/login": {
 		"controller": "user",
 		"action": "login",
 		"method": "POST"
-	},"/punku/user": {
+	},"/punkuapi/user": {
 		"controller": "user",
 		"action": "index",
 		"method": "POST"
-	},"/punku/error": {
+	},"/punkuapi/error": {
 		"controller": "error",
 		"action": "index",
 		"method": "GET"
